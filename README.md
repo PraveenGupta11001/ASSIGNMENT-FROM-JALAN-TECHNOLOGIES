@@ -6,8 +6,21 @@
 
 according to your operating system.
 
+
+### Answer about time and space complexity
+> let's sum it out the two loops take T(N) + T(N) + T(1) + T(1) + T(1)
+> the complexity of whole program is T(N) or T(n) and constant were ignored as for they take constant time
+> Time-Complexity of Program is : T(N).
+> 
+> Space-complexity of program is heavily depended on the array as for this program if we consider a number variable in 
+> javascript take 8 bytes per number to store it 
+> The time complexity of the program is 8 * 6 for one array and another also take 8 * 6;
+> so total space-complexity is : 48 + 48 = 96 bytes
+> 
+> hence, question is solved.
+
 ## Answer 1 : 
-In your terminal loacate to this assignment folder and start running the programs : 
+In your terminal locate to this assignment folder and start running the programs : 
 
     PS C:\Users\Gupta\Desktop\assignment> node question_1.js
 

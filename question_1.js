@@ -65,14 +65,3 @@ else if(d == 1){
 else{
     console.log('Please enter the correct value of p and d to get accurate results.');
 }
-
-// let's sum it out the two loops take T(N) + T(N) + T(1) + T(1) + T(1)
-// the complexity of whole program is T(N) or T(n) and constant were ignored as for they take constant time
-// Time-Complexity of Program is : T(N).
-
-// Space-complexity of program is heavily depended on the array as for this program if we consider a number variable in 
-// javascript take 8 bytes per number to store it 
-// The time complexity of the program is 8 * 6 for one array and another also take 8 * 6;
-// so total space-complexity is : 48 + 48 = 96 bytes
-
-// hence, question is solved.
