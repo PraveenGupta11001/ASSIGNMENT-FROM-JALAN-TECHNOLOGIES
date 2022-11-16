@@ -50,17 +50,28 @@ let changeToRight = (pt, p) => {
 // rest all take constant T(1) or constant time-complexity 
 if(d == 0){
     let p = prompt('Enter the value of p i.e., where 0<p<N, p is breaking point of array : ');
-    let pt = p;
-    changeToLeft(pt, p);
-    console.log(arr);
-    console.log();
+    if(p < N && p > 0){
+        let pt = p;
+        changeToLeft(pt, p);
+        console.log(arr);
+        console.log();
+    }
+    else{
+        console.log('please check the value of p because it is out of constraints and try again');
+    }
 }
 else if(d == 1){
+
     let p = prompt('Enter the value of p i.e., where 0<p<N, p is breaking point of array : ');
-    let pt = p;
-    changeToRight(pt, p);
-    console.log(arr);
-    console.log();
+    if(p < N && p > 0){
+        let pt = p;
+        changeToRight(pt, p);
+        console.log(arr);
+        console.log();
+    }
+    else{
+        console.log('please check the value of p because it is out of constraints and try again');
+    }
 }
 else{
     console.log('Please enter the correct value of p and d to get accurate results.');

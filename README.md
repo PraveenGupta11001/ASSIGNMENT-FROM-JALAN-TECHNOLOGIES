@@ -26,153 +26,95 @@ In your terminal locate to this assignment folder and start running the programs
 
 output is : 
 
+    PS C:\Users\Gupta\Desktop\assignment> node question_1.js
+    
+    The given array is :
+    [ 1, 3, 2, 7, 4, 6 ]
+    Enter the value of d, d = 0 turn left to right and d = 1 is vice-versa : 0
+    Enter the value of p i.e., where 0<p<N, p is breaking point of array : 2
+    PS C:\Users\Gupta\Desktop\assignment> node question_1.js
+    
+    The given array is :
+    [ 1, 3, 2, 7, 4, 6 ]
+    Enter the value of d, d = 0 turn left to right and d = 1 is vice-versa : 0
+    Enter the value of p i.e., where 0<p<N, p is breaking point of array : 2
+    [ 2, 7, 4, 6, 1, 3 ]
+    
+    PS C:\Users\Gupta\Desktop\assignment> node question_1.js
+    
     The given array is :
     [ 1, 3, 2, 7, 4, 6 ]
     Enter the value of d, d = 0 turn left to right and d = 1 is vice-versa : 1
-    Enter the value of p i.e., where 0<p<N, p is breaking point of array : 3
-    [ 6, 4, 7, 3, 2, 7 ]
+    Enter the value of p i.e., where 0<p<N, p is breaking point of array : 2
+    [ 6, 4, 1, 3, 2, 7 ]
+    
+    PS C:\Users\Gupta\Desktop\assignment> node question_1.js
+    
+    The given array is :
+    [ 1, 3, 2, 7, 4, 6 ]
+    Enter the value of d, d = 0 turn left to right and d = 1 is vice-versa : 0
+    Enter the value of p i.e., where 0<p<N, p is breaking point of array : 0
+    please check the value of p because it is out of constraints
 
 
 Answer 2 :
 
     PS C:\Users\Gupta\Desktop\assignment> node question_2.js
+    Enter the Number of alarms you want : 1
+    1
+> this show number of alarm i as a user want is 1
     Alarm is ready! to tick
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 1
-    
-    18:39:4
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 2
-    
-    Enter the number of alarm you want : 2
+
+    17:14:42
+> show the current time according to question
+
+    17:14:42
+    [
+      'Sunday = 1',
+      'Monday = 2',
+      'Tuesday = 3',
+      'Wednesday = 4',
+      'Thursday = 5',
+      'Friday = 6',
+      'Saturday = 7'
+    ]
     Enter the day(1-7), hours(24 hrs format), minutes(0-60) of alarm 1 :
-    
-    18:39:16
-    
-    Enter the day you want to set the Alarm : 2
-    Enter hrs : 14
-    Enter Min : 20
-    
-    Enter the day(1-7), hours(24 hrs format), minutes(0-60) of alarm 2 :
-    
-    18:39:35
-    
-    Enter the day you want to set the Alarm : 3
-    Enter hrs : 14
-    Enter Min : 22
-    
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 3
-    2 14 20
-    3 14 22
-    
-    Do you want to run alarm operation again : press y or n : 5
-    PS C:\Users\Gupta\Desktop\assignment> node question_2.js
-    Alarm is ready! to tick
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 5
-    Enter the Alarm You want to delete by number 1 to as your number of alarms : 1
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 3
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 2
-    
-    Enter the number of alarm you want : 2
-    Enter the day(1-7), hours(24 hrs format), minutes(0-60) of alarm 1 :
-    
-    18:41:36
-    
-    Enter the day you want to set the Alarm : 2
-    Enter hrs : 14
+    17:14:42
+> This shows current time again to enter 
+
+    Enter the day you want to set the Alarm : 4
+> here i enter 4 and it as a day says wednesday, but if you enter another it will rang at that time enter the correctly as shown in array of days see up
+
+    Enter hrs : 17
+> enter hours in 24 hrs format
+
     Enter Min : 15
-    
-    Enter the day(1-7), hours(24 hrs format), minutes(0-60) of alarm 2 :
-    
-    18:41:42
-    
-    Enter the day you want to set the Alarm : 3
-    Enter hrs : 14
-    Enter Min : 25
-    
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 3
-    2 14 15
-    3 14 25
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 5
-    Enter the Alarm You want to delete by number 1 to as your number of alarms : 1
-    
-    Do you want to run alarm operation again : press y or n : y
-    
-    1 to show current time
-    2 : create user alarm
-    3 : show number of alarms user have
-    4 : to run the alarm and snooze it 3 times
-    5 : delete an alarm of user created
-    
-    Enter the value to perform operation of the Alarm clock : 3
-    3 14 25
-    
-    Do you want to run alarm operation again : press y or n : n
-    PS C:\Users\Gupta\Desktop\assignment>
+> enter min from 0 to 59
+
+    Alarm No : 1 | 4 17 15
+
+    Alarm No : 1 | 4 17 15
+
+> before the run this comes automatically for deleting an alarm, if you press 0 or greater than N or any other character it will not be deleted and goes forward to automatically run the alarm
+    Enter the Alarm You want to delete by number 1 to N as your given alarms to as your number of alarms : l
+    cannot perform operation because no such alarm exist!
+    Alarm No : 1 | 4 17 15
+
+    Lets run the alarm
+    17:14:55
+    17:14:55
+    Time is up - Ring! Ring! Ring! Ring!
+> if alarm is on time it will rang automatically
+
+    17:15:6
+    Do you want to snooze the time for 5 minutes : y & n ?y
+
+> if y it will snoozes and if other number of character it will stop and only snoozes 3 times only
+
+    17:15:6
+    Time is up - Ring! Ring! Ring! Ring!
+    Do you want to snooze the time for 5 minutes : y & n ?n
+    Your time is up tick-tick, 3 times snoozes by you or you stop the alarm
+
+> Now question is complete and correctly, thank you.
     
