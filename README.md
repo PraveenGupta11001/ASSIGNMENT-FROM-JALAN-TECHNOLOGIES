@@ -83,7 +83,7 @@ Answer 2 :
 > This shows current time again to enter 
 
     Enter the day you want to set the Alarm : 4
-> here i enter 4 and it as a day says wednesday, but if you enter another it will rang at that time enter the correctly as shown in array of days see up
+> here I enter 4 and it as a day says wednesday, but if you enter another it will rang at that time enter the correctly as shown in array of days see up
 
     Enter hrs : 17
 > enter hours in 24 hrs format
