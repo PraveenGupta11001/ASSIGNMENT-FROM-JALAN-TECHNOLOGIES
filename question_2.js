@@ -1,4 +1,3 @@
-// 1:50pm to --
 const ps = require('prompt-sync');
 const prompt = ps();
 
