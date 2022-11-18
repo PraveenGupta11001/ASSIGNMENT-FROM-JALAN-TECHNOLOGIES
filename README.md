@@ -116,5 +116,5 @@ Answer 2 :
     Do you want to snooze the time for 5 minutes : y & n ?n
     Your time is up tick-tick, 3 times snoozes by you or you stop the alarm
 
-> Now question is complete and correctly, thank you.
+> Now question is complete, thank you.
     
