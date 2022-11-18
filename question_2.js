@@ -51,15 +51,15 @@ class Alarm{
                     var userDay = AlarmNumber[i][0];
                     var userHr = AlarmNumber[i][1];
                     min = AlarmNumber[i][2];
+                    console.log('Lets run the alarm');
                     check = setInterval(() => {
-                        console.log('Lets run the alarm');
-
+                        this.showCurrentTime();
 
                         // check the alarm timing if current then it will buzz or rang
                         var data = new Date();
                         if((Number(userDay) - 1) == data.getDay() && userHr == data.getHours() && min == data.getMinutes()){
                             console.log('Time is up - Ring! Ring! Ring! Ring!');
-                            this.showCurrentTime();s
+                            this.showCurrentTime();
                                 // have snooze function in it and have limited 3 times of snoozing after five minutes as asked in question
                                 let flag = 'n';
                                     flag = prompt('Do you want to snooze the time for 5 minutes : y & n ?');
